@@ -7,5 +7,5 @@ This is a basic implementation of a RESP (Redis Serialization Protocol) parser i
 ## Features
 
 - Parse RESP commands from a buffered reader
-- Extract and return command arguments
-- Basic support for RESP bulk strings
+- Extract and return command and arguments as a slice
+- Basic support for RESP array of bulk strings
